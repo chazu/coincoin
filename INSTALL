@@ -1,0 +1,9 @@
+Building Cum
+
+See doc/readme-qt.rst for instructions on building Cum-Qt,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of Cum.
+
+See doc/build-*.txt for instructions on building cumd,
+the intended-for-services, no-graphical-interface, reference
+implementation of Cum.

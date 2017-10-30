@@ -1,0 +1,34 @@
+src/*.exe
+src/cum
+src/cumd
+src/test_cum
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.cum
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+cum-qt
+Cum-Qt.app
+
+# Unit-tests
+Makefile.test
+cum-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb*/Makefile
